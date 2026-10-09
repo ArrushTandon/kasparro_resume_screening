@@ -1,0 +1,3654 @@
+[
+  {
+    "rank": 1,
+    "candidate_name": "ARUNIMA SAHA",
+    "eligible": true,
+    "email": "arunimasaha11@gmail.com",
+    "total_score": 90,
+    "score_breakdown": {
+      "ai_project_depth": 40,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 5
+    },
+    "matched_skills": [
+      "python",
+      "sql",
+      "fastapi",
+      "postgresql",
+      "docker",
+      "aws",
+      "rest api",
+      "microservices",
+      "git",
+      "langchain",
+      "openai",
+      "vector database",
+      "pinecone",
+      "rag",
+      "llm",
+      "agents",
+      "agentic",
+      "embeddings"
+    ],
+    "project_summary": "Built an interactive Chainlit conversational interface that accepts user questions, invokes the Graph RAG pipeline.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, genai, rag, langchain, agentic, multi-agent"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_43",
+    "source_file": "resumes\\candidate_43.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "genai",
+        "rag",
+        "langchain",
+        "agentic",
+        "multi-agent"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "rest api",
+        "backend",
+        "microservices",
+        "postgresql",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "google cloud",
+        "docker",
+        "deployed",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "scalable",
+        "optimization",
+        "logging",
+        "error handling",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 2,
+    "candidate_name": "V Sree Raghu Vardhan",
+    "eligible": true,
+    "email": "vardhanvsr2004@gmail.com",
+    "total_score": 90,
+    "score_breakdown": {
+      "ai_project_depth": 40,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 5
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "sql",
+      "fastapi",
+      "django",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "kubernetes",
+      "aws",
+      "azure",
+      "git",
+      "langchain",
+      "openai",
+      "pinecone",
+      "rag",
+      "llm",
+      "agents",
+      "embeddings"
+    ],
+    "project_summary": "Built enterprise AI agents, RAG pipelines, semantic retrieval systems, structured output validation, and scalable backend services.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, langchain, ai agent, ai agents, embeddings"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_30",
+    "source_file": "resumes\\candidate_30.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "langchain",
+        "ai agent",
+        "ai agents",
+        "embeddings"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "django",
+        "backend",
+        "postgresql",
+        "mongodb",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "azure",
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing",
+        "system design",
+        "scalable",
+        "optimization",
+        "optimized",
+        "caching",
+        "retry",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 3,
+    "candidate_name": "Vaibhav Wakde",
+    "eligible": true,
+    "email": "vaibhavwakde266@gmail.com",
+    "total_score": 86,
+    "score_breakdown": {
+      "ai_project_depth": 40,
+      "python_backend": 30,
+      "cloud_fullstack": 12,
+      "github": 0,
+      "engineering_depth": 4
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "c++",
+      "sql",
+      "fastapi",
+      "flask",
+      "docker",
+      "aws",
+      "microservices",
+      "git",
+      "pytest",
+      "pandas",
+      "numpy",
+      "langchain",
+      "llamaindex",
+      "openai",
+      "hugging face",
+      "chromadb",
+      "rag",
+      "llm",
+      "agents",
+      "agentic"
+    ],
+    "project_summary": "Built a LangGraph-based AI agent with tool calling to automate interaction logging, editing, follow-up scheduling, material search, and inventory-aware sample distribution using natural language.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, langchain, llamaindex, ai agent, tool calling"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_33",
+    "source_file": "resumes\\candidate_33.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "langchain",
+        "llamaindex",
+        "ai agent",
+        "tool calling"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "restful",
+        "backend",
+        "microservices",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "deployed",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "pytest",
+        "caching",
+        "logging",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 4,
+    "candidate_name": "Sumaiya Sultana Shaik",
+    "eligible": true,
+    "email": "sultanasumaiya623@gmail.com",
+    "total_score": 85,
+    "score_breakdown": {
+      "ai_project_depth": 35,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 5
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "typescript",
+      "sql",
+      "fastapi",
+      "react",
+      "postgresql",
+      "mongodb",
+      "docker",
+      "gcp",
+      "rest api",
+      "microservices",
+      "git",
+      "pytest",
+      "scikit-learn",
+      "langchain",
+      "rag",
+      "llm",
+      "agents",
+      "agentic"
+    ],
+    "project_summary": "Designed prompt architectures and orchestration logic for a multi-agent document-generation system.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, langchain, multi-agent"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_28",
+    "source_file": "resumes\\candidate_28.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "langchain",
+        "multi-agent"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "rest api",
+        "backend",
+        "microservices",
+        "postgresql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "gcp",
+        "cloud run",
+        "docker",
+        "ci/cd",
+        "deployment",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "pytest",
+        "testing",
+        "system design",
+        "optimized",
+        "logging",
+        "retry",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 5,
+    "candidate_name": "Prathamesh Patil",
+    "eligible": true,
+    "email": "prathameshpatil330@gmail.com",
+    "total_score": 83,
+    "score_breakdown": {
+      "ai_project_depth": 40,
+      "python_backend": 24,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 4
+    },
+    "matched_skills": [
+      "python",
+      "sql",
+      "fastapi",
+      "node.js",
+      "react",
+      "postgresql",
+      "redis",
+      "docker",
+      "kubernetes",
+      "aws",
+      "microservices",
+      "git",
+      "scikit-learn",
+      "tensorflow",
+      "pytorch",
+      "chromadb",
+      "rag",
+      "llm",
+      "agentic",
+      "embeddings"
+    ],
+    "project_summary": "Designed persistent semantic user profiling with PostgreSQL + pgvector, combining Groq Llama 3.3 for low-latency reasoning with 3072-dimension Gemini embeddings to reduce API costs.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, agentic, multi-agent, embeddings, llama"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_35",
+    "source_file": "resumes\\candidate_35.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "agentic",
+        "multi-agent",
+        "embeddings",
+        "llama"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "microservices",
+        "postgresql",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "github actions",
+        "deployed",
+        "deployment",
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing",
+        "scalable",
+        "caching",
+        "logging"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 6,
+    "candidate_name": "PRAJWAL A S",
+    "eligible": true,
+    "email": "prajwalas8999@gmail.com",
+    "total_score": 79,
+    "score_breakdown": {
+      "ai_project_depth": 40,
+      "python_backend": 30,
+      "cloud_fullstack": 6,
+      "github": 0,
+      "engineering_depth": 3
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "sql",
+      "fastapi",
+      "flask",
+      "react",
+      "postgresql",
+      "rest api",
+      "git",
+      "linux",
+      "langchain",
+      "rag",
+      "llm",
+      "agents",
+      "embeddings"
+    ],
+    "project_summary": "Built RAG-style schema compression, cutting inference cost by ~60% while improving SQL generation accuracy.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, genai, rag, ai agent, ai agents, multi-agent, prompt engineering, llm-powered"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_22",
+    "source_file": "resumes\\candidate_22.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "genai",
+        "rag",
+        "ai agent",
+        "ai agents",
+        "multi-agent",
+        "prompt engineering",
+        "llm-powered"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "rest api",
+        "backend",
+        "postgresql",
+        "sqlalchemy"
+      ],
+      "cloud_deployment_fullstack": [
+        "vercel",
+        "deployed"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "optimization",
+        "monitoring",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 7,
+    "candidate_name": "PRIYANSHU KUMAR",
+    "eligible": true,
+    "email": "krpriyanshu2805@gmail.com",
+    "total_score": 79,
+    "score_breakdown": {
+      "ai_project_depth": 40,
+      "python_backend": 28,
+      "cloud_fullstack": 9,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "c++",
+      "fastapi",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "git",
+      "langchain",
+      "pinecone",
+      "rag",
+      "llm",
+      "agentic",
+      "embeddings"
+    ],
+    "project_summary": "Integrated MCP-based tool calling to fetch real-time Jira issue status and send Slack notifications, enabling context-aware PR management across systems.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, agentic, multi-agent, tool calling, embeddings"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_16",
+    "source_file": "resumes\\candidate_16.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "agentic",
+        "multi-agent",
+        "tool calling",
+        "embeddings"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "backend",
+        "postgresql",
+        "mysql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "deployed",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "scalable",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 8,
+    "candidate_name": "ABHINAV MISHRA",
+    "eligible": true,
+    "email": "abhinavmishra3322@gmail.com",
+    "total_score": 79,
+    "score_breakdown": {
+      "ai_project_depth": 35,
+      "python_backend": 24,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 5
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "fastapi",
+      "node.js",
+      "react",
+      "postgresql",
+      "redis",
+      "azure",
+      "openai",
+      "rag",
+      "agentic"
+    ],
+    "project_summary": "Built AI-powered learning features, including ExpertBuddy AI with agentic chat for homework queries, reducing resolution time by 42%, and developed a generative AI PDF analysis system using Vercel AI SDK that processed 100+ page documents in <5s.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: generative ai, rag, agentic, openai api"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_10",
+    "source_file": "resumes\\candidate_10.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "generative ai",
+        "rag",
+        "agentic",
+        "openai api"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "backend",
+        "postgresql",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "azure",
+        "vercel",
+        "ci/cd",
+        "github actions",
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing",
+        "optimization",
+        "caching",
+        "logging",
+        "retry"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 9,
+    "candidate_name": "Kiran Naregal",
+    "eligible": true,
+    "email": "kirnaregal7@gmail.com",
+    "total_score": 78,
+    "score_breakdown": {
+      "ai_project_depth": 37,
+      "python_backend": 20,
+      "cloud_fullstack": 15,
+      "github": 3,
+      "engineering_depth": 3
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "c++",
+      "sql",
+      "fastapi",
+      "node.js",
+      "react",
+      "mongodb",
+      "docker",
+      "aws",
+      "git",
+      "pandas",
+      "langchain",
+      "openai",
+      "hugging face",
+      "rag",
+      "llm",
+      "agents",
+      "agentic"
+    ],
+    "project_summary": "Contributing to Tvastaa VP, an agentic workflow built with the Claude Agent SDK that generates SystemC models from IP datasheets by chaining into the existing Docling-based preprocessing pipeline; built the subscription-based platform.",
+    "github_username": "kiran-naregal",
+    "github_url": "https://github.com/Kiran-naregal",
+    "github_summary": "8 public repositories; 0 public events in the last 90 days; 1 repositories updated in the last 180 days; 1 repositories with AI/Python-related signals; languages include C++, JavaScript, Python.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, langchain, agentic, multi-agent, hugging face, anthropic"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_47",
+    "source_file": "resumes\\candidate_47.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "langchain",
+        "agentic",
+        "multi-agent",
+        "hugging face",
+        "anthropic"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "backend",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "deployed",
+        "deployment",
+        "full-stack"
+      ],
+      "github": [
+        "https://github.com/kiran-naregal",
+        "8 public repositories; languages: C++, JavaScript, Python"
+      ],
+      "engineering_depth": [
+        "optimized",
+        "logging",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": true,
+      "username": "kiran-naregal",
+      "profile_url": "https://github.com/Kiran-naregal",
+      "public_repos": 8,
+      "followers": 0,
+      "account_created": "2021-05-03T11:11:30Z",
+      "languages_in_recent_repos": [
+        "C++",
+        "JavaScript",
+        "Python"
+      ],
+      "recent_repositories": [
+        {
+          "name": "code-review-agent",
+          "url": "https://github.com/Kiran-naregal/code-review-agent",
+          "language": "Python",
+          "description": null,
+          "updated_at": "2026-08-18T14:20:37Z"
+        },
+        {
+          "name": "wild-oasis-website",
+          "url": "https://github.com/Kiran-naregal/wild-oasis-website",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2024-12-19T07:05:33Z"
+        },
+        {
+          "name": "pizza-app",
+          "url": "https://github.com/Kiran-naregal/pizza-app",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2024-12-13T13:01:35Z"
+        },
+        {
+          "name": "Global-News-App",
+          "url": "https://github.com/Kiran-naregal/Global-News-App",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2024-12-08T15:35:05Z"
+        },
+        {
+          "name": "sticky-notes-react-app",
+          "url": "https://github.com/Kiran-naregal/sticky-notes-react-app",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2024-07-11T11:36:11Z"
+        },
+        {
+          "name": "100_Code_Library",
+          "url": "https://github.com/Kiran-naregal/100_Code_Library",
+          "language": "C++",
+          "description": null,
+          "updated_at": "2023-04-21T14:58:49Z"
+        },
+        {
+          "name": "Microservices",
+          "url": "https://github.com/Kiran-naregal/Microservices",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2023-04-03T11:15:38Z"
+        },
+        {
+          "name": "DUGC_Withdrawal",
+          "url": "https://github.com/Kiran-naregal/DUGC_Withdrawal",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2022-12-03T07:53:21Z"
+        }
+      ],
+      "recent_public_events_90d": 0,
+      "recently_updated_repositories_180d": 1,
+      "relevant_repositories": 1,
+      "activity_score": 0,
+      "repository_score": 3,
+      "enrichment_warnings": [],
+      "score_method": "0-5 recent public events in 90 days + 0-5 recently updated/relevant repositories"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 10,
+    "candidate_name": "Nevil Jasmin Mehta",
+    "eligible": true,
+    "email": "nevilmehta5@gmail.com",
+    "total_score": 77,
+    "score_breakdown": {
+      "ai_project_depth": 28,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 4
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "fastapi",
+      "flask",
+      "django",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "pandas",
+      "numpy",
+      "rag",
+      "llm",
+      "embeddings"
+    ],
+    "project_summary": "Implemented ML and transformer models with Streamlit, enabling data processing, visualization & interactive insights.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: rag, prompt engineering, embeddings, transformer"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_50",
+    "source_file": "resumes\\candidate_50.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "rag",
+        "prompt engineering",
+        "embeddings",
+        "transformer"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "django",
+        "backend",
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "deployed",
+        "deployment",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "system design",
+        "scalable",
+        "optimized",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 11,
+    "candidate_name": "Gourab Das",
+    "eligible": true,
+    "email": "gourabdas1307@gmail.com",
+    "total_score": 70,
+    "score_breakdown": {
+      "ai_project_depth": 23,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "c++",
+      "sql",
+      "fastapi",
+      "flask",
+      "django",
+      "spring boot",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "microservices",
+      "git",
+      "pytest",
+      "langchain",
+      "rag",
+      "agents"
+    ],
+    "project_summary": "2,000+ active donors and seamlessly serve 10-15 patients daily.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: rag, langchain, semantic search"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_17",
+    "source_file": "resumes\\candidate_17.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "rag",
+        "langchain",
+        "semantic search"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "django",
+        "spring boot",
+        "restful",
+        "backend",
+        "microservices",
+        "postgresql"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "ci/cd",
+        "github actions",
+        "deployed",
+        "deployment",
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "pytest",
+        "scalable"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 12,
+    "candidate_name": "Arjun Kumar",
+    "eligible": true,
+    "email": "roy.prajapat.143@gmail.com",
+    "total_score": 69,
+    "score_breakdown": {
+      "ai_project_depth": 28,
+      "python_backend": 30,
+      "cloud_fullstack": 9,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "typescript",
+      "c++",
+      "sql",
+      "fastapi",
+      "django",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "aws",
+      "rest api",
+      "git",
+      "scikit-learn",
+      "tensorflow",
+      "langchain",
+      "hugging face",
+      "rag",
+      "agentic",
+      "embeddings"
+    ],
+    "project_summary": "Built an end-to-end resume screening tool using BERT embeddings and NLP for semantic matching, hitting 96% accuracy; the Django REST backend handles concurrent sessions statelessly, with a ReactJS recruiter dashboard on top.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: langchain, embeddings, transformer"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_08",
+    "source_file": "resumes\\candidate_08.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "langchain",
+        "embeddings",
+        "transformer"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "django",
+        "rest api",
+        "backend",
+        "postgresql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "ci/cd",
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "optimized",
+        "concurrency"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 13,
+    "candidate_name": "Aswin Raj R",
+    "eligible": true,
+    "email": "aswinrajr12@gmail.com",
+    "total_score": 67,
+    "score_breakdown": {
+      "ai_project_depth": 33,
+      "python_backend": 24,
+      "cloud_fullstack": 9,
+      "github": 0,
+      "engineering_depth": 1
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "spring boot",
+      "node.js",
+      "react",
+      "mongodb",
+      "aws",
+      "git",
+      "linux",
+      "tensorflow",
+      "langchain",
+      "openai",
+      "rag",
+      "llm"
+    ],
+    "project_summary": "Developed a privacy-preserving AI model using Federated Learning and Vision Transformer (ViT) for Achieved 91.58% accuracy while ensuring data privacy.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence",
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, langchain, transformer, llm-powered"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_49",
+    "source_file": "resumes\\candidate_49.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "langchain",
+        "transformer",
+        "llm-powered"
+      ],
+      "python_backend": [
+        "Python",
+        "spring boot",
+        "backend",
+        "mysql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "optimized"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 14,
+    "candidate_name": "PAVANI A",
+    "eligible": true,
+    "email": "pavani10112004@gmail.com",
+    "total_score": 61,
+    "score_breakdown": {
+      "ai_project_depth": 10,
+      "python_backend": 30,
+      "cloud_fullstack": 9,
+      "github": 10,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "sql",
+      "fastapi",
+      "flask",
+      "django",
+      "react",
+      "postgresql",
+      "mongodb",
+      "docker",
+      "git",
+      "pandas",
+      "numpy",
+      "scikit-learn",
+      "tensorflow",
+      "llm"
+    ],
+    "project_summary": "Integrated LLaMA for automated evaluation and personalized feedback generation.",
+    "github_username": "Pavani-A",
+    "github_url": "https://github.com/Pavani-A",
+    "github_summary": "16 public repositories; 32 public events in the last 90 days; 9 repositories updated in the last 180 days; 7 repositories with AI/Python-related signals; languages include HTML, Java, JavaScript, Python, TypeScript.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Public GitHub activity and repository evidence"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llama"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_38",
+    "source_file": "resumes\\candidate_38.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llama"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "django",
+        "backend",
+        "postgresql",
+        "mysql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "docker",
+        "ci/cd",
+        "full-stack"
+      ],
+      "github": [
+        "https://github.com/Pavani-A",
+        "16 public repositories; languages: HTML, Java, JavaScript, Python, TypeScript"
+      ],
+      "engineering_depth": [
+        "scalable",
+        "optimized"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": true,
+      "username": "Pavani-A",
+      "profile_url": "https://github.com/Pavani-A",
+      "public_repos": 16,
+      "followers": 1,
+      "account_created": "2024-11-12T13:07:49Z",
+      "languages_in_recent_repos": [
+        "HTML",
+        "Java",
+        "JavaScript",
+        "Python",
+        "TypeScript"
+      ],
+      "recent_repositories": [
+        {
+          "name": "Bulk_certificate_generator",
+          "url": "https://github.com/Pavani-A/Bulk_certificate_generator",
+          "language": "Python",
+          "description": null,
+          "updated_at": "2026-10-07T17:43:33Z"
+        },
+        {
+          "name": "portfolio",
+          "url": "https://github.com/Pavani-A/portfolio",
+          "language": "HTML",
+          "description": null,
+          "updated_at": "2026-10-04T09:26:28Z"
+        },
+        {
+          "name": "AI-Powered-Digital-Asset-Management",
+          "url": "https://github.com/Pavani-A/AI-Powered-Digital-Asset-Management",
+          "language": "Python",
+          "description": null,
+          "updated_at": "2026-09-27T11:01:14Z"
+        },
+        {
+          "name": "job_automation",
+          "url": "https://github.com/Pavani-A/job_automation",
+          "language": null,
+          "description": null,
+          "updated_at": "2026-09-17T17:13:44Z"
+        },
+        {
+          "name": "lenny-growth-assistant",
+          "url": "https://github.com/Pavani-A/lenny-growth-assistant",
+          "language": "Python",
+          "description": null,
+          "updated_at": "2026-09-05T14:02:19Z"
+        },
+        {
+          "name": "handwritten-number-recognition",
+          "url": "https://github.com/Pavani-A/handwritten-number-recognition",
+          "language": "Python",
+          "description": "recognizes handwritten numbers",
+          "updated_at": "2026-08-08T12:01:11Z"
+        },
+        {
+          "name": "image_recognition",
+          "url": "https://github.com/Pavani-A/image_recognition",
+          "language": "Python",
+          "description": null,
+          "updated_at": "2026-08-07T18:05:01Z"
+        },
+        {
+          "name": "springboot-library-management",
+          "url": "https://github.com/Pavani-A/springboot-library-management",
+          "language": "Java",
+          "description": null,
+          "updated_at": "2026-05-09T15:01:52Z"
+        },
+        {
+          "name": "pantry-django",
+          "url": "https://github.com/Pavani-A/pantry-django",
+          "language": "HTML",
+          "description": "pantry management",
+          "updated_at": "2026-04-22T10:09:59Z"
+        },
+        {
+          "name": "Auto_Eval",
+          "url": "https://github.com/Pavani-A/Auto_Eval",
+          "language": "JavaScript",
+          "description": null,
+          "updated_at": "2026-04-03T09:16:50Z"
+        }
+      ],
+      "recent_public_events_90d": 32,
+      "recently_updated_repositories_180d": 9,
+      "relevant_repositories": 7,
+      "activity_score": 5,
+      "repository_score": 5,
+      "enrichment_warnings": [],
+      "score_method": "0-5 recent public events in 90 days + 0-5 recently updated/relevant repositories"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 15,
+    "candidate_name": "Saif Ali Nagori",
+    "eligible": true,
+    "email": "saifalinagori78@gmail.com",
+    "total_score": 59,
+    "score_breakdown": {
+      "ai_project_depth": 18,
+      "python_backend": 28,
+      "cloud_fullstack": 6,
+      "github": 7,
+      "engineering_depth": 0
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "c++",
+      "fastapi",
+      "flask",
+      "node.js",
+      "react",
+      "mongodb",
+      "git",
+      "rag",
+      "llm"
+    ],
+    "project_summary": "Turf Management is a full-stack web application that simplifies sports turf booking and management.",
+    "github_username": "Nagorisaifali",
+    "github_url": "https://github.com/Nagorisaifali",
+    "github_summary": "26 public repositories; 2 public events in the last 90 days; 7 repositories updated in the last 180 days; 12 repositories with AI/Python-related signals; languages include CSS, EJS, HTML, JavaScript, Jupyter Notebook.",
+    "strengths": [
+      "Python/backend experience",
+      "Public GitHub activity and repository evidence"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_36",
+    "source_file": "resumes\\candidate_36.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "restful",
+        "backend",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "full-stack",
+        "full stack"
+      ],
+      "github": [
+        "https://github.com/Nagorisaifali",
+        "26 public repositories; languages: CSS, EJS, HTML, JavaScript, Jupyter Notebook, Python"
+      ],
+      "engineering_depth": []
+    },
+    "penalties": [],
+    "github_details": {
+      "available": true,
+      "username": "Nagorisaifali",
+      "profile_url": "https://github.com/Nagorisaifali",
+      "public_repos": 26,
+      "followers": 0,
+      "account_created": "2023-08-27T05:39:32Z",
+      "languages_in_recent_repos": [
+        "CSS",
+        "EJS",
+        "HTML",
+        "JavaScript",
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "recent_repositories": [
+        {
+          "name": "Movie-Discovery-App",
+          "url": "https://github.com/Nagorisaifali/Movie-Discovery-App",
+          "language": "JavaScript",
+          "description": "cinepick is a responsive movie discovery app built with React, Tailwind CSS, Node.js, and Express. Users can search, filter by genre or mood, sort and paginate results, explore details, save wishlists, rate films, write notes, view history, get recommendations, and plan watch parties. TMDB data is cached and normalized by the backend.",
+          "updated_at": "2026-09-11T10:26:04Z"
+        },
+        {
+          "name": "Turf_Management",
+          "url": "https://github.com/Nagorisaifali/Turf_Management",
+          "language": "JavaScript",
+          "description": "Turf Management is a full-stack web application that simplifies sports turf booking and management. It enables users to browse available turfs, check schedules, make online reservations, and manage bookings, while administrators can oversee turf availability, bookings, users, and operations through a dedicated dashboard.",
+          "updated_at": "2026-07-22T06:10:19Z"
+        },
+        {
+          "name": "Student_Management_System",
+          "url": "https://github.com/Nagorisaifali/Student_Management_System",
+          "language": "JavaScript",
+          "description": "A student management dashboard with Firebase integration for handling students, teachers, attendance, exams, results, fees, library records, settings, and role-based app navigation through a clean, responsive admin interface.",
+          "updated_at": "2026-06-19T08:39:11Z"
+        },
+        {
+          "name": "food_delivery_app",
+          "url": "https://github.com/Nagorisaifali/food_delivery_app",
+          "language": "JavaScript",
+          "description": "Food Delivery App  Using React And Tailwind CSS ",
+          "updated_at": "2026-05-27T10:15:25Z"
+        },
+        {
+          "name": "Loan_Approval_Predictor",
+          "url": "https://github.com/Nagorisaifali/Loan_Approval_Predictor",
+          "language": "Jupyter Notebook",
+          "description": "Loan Approval Predictor: a Python Flask app and model that ingests applicant data, trains and serves a classifier to estimate loan approval likelihood. Includes dataset, Jupyter notebook for model development, API endpoint for predictions, and instructions to run, test, and extend the pipeline. Includes Dockerfile, unit tests, and a simple UI.",
+          "updated_at": "2026-05-25T09:33:13Z"
+        },
+        {
+          "name": "Car_Price_Prediction",
+          "url": "https://github.com/Nagorisaifali/Car_Price_Prediction",
+          "language": "Python",
+          "description": "Car Price Predictor — Python app using Cardetails.csv and app.py to clean data, engineer features, train/evaluate ML models, and provide a simple interface to estimate used car prices from inputs (make, model, year, mileage). Reproducible, easy to run and deploy.",
+          "updated_at": "2026-05-25T09:27:33Z"
+        },
+        {
+          "name": "Electric-vehicle-knowledge-bot-",
+          "url": "https://github.com/Nagorisaifali/Electric-vehicle-knowledge-bot-",
+          "language": "JavaScript",
+          "description": "This is a AI-powered electric vehicle knowledge bot application with Python backend (Flask) and React/Vite frontend. It features RAG using FAISS for vector search on uploaded PDFs, Gemini AI integration for intelligent responses, chat history tracking, admin panel, and document management.",
+          "updated_at": "2026-04-28T10:07:59Z"
+        },
+        {
+          "name": "BugSpotter-AI-Powered-Code-Reviewer",
+          "url": "https://github.com/Nagorisaifali/BugSpotter-AI-Powered-Code-Reviewer",
+          "language": "JavaScript",
+          "description": "BugSpotter is a full-stack AI-powered code reviewer that detects bugs, suggests fixes, and improves code quality across multiple languages. Built with React, Node.js, and Google Gemini AI, it features a live code editor, syntax highlighting, dark/light themes, resizable panes, and instant AI feedback for cleaner, scalable, and secure code.",
+          "updated_at": "2026-04-05T09:24:11Z"
+        },
+        {
+          "name": "Blog_Application",
+          "url": "https://github.com/Nagorisaifali/Blog_Application",
+          "language": "JavaScript",
+          "description": "it is a full-featured blog application built with the MERN stack (MongoDB, Express, React, Node.js) that allows users to write, publish, and manage blog posts. It supports secure user authentication, a rich admin interface, and dynamic content display — making it perfect for tech bloggers and content creators.",
+          "updated_at": "2026-03-30T12:55:25Z"
+        },
+        {
+          "name": "Virtual_Assistant",
+          "url": "https://github.com/Nagorisaifali/Virtual_Assistant",
+          "language": "JavaScript",
+          "description": "Shifra is a browser-based virtual assistant built using vanilla JavaScript and react Js, powered by the Web Speech API for voice recognition and speech synthesis. It listens to your voice commands and performs actions like opening websites, telling the current time or date, translating text, and even telling jokes — all with a stylish animated UI.",
+          "updated_at": "2026-02-09T14:52:01Z"
+        }
+      ],
+      "recent_public_events_90d": 2,
+      "recently_updated_repositories_180d": 7,
+      "relevant_repositories": 12,
+      "activity_score": 2,
+      "repository_score": 5,
+      "enrichment_warnings": [],
+      "score_method": "0-5 recent public events in 90 days + 0-5 recently updated/relevant repositories"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 16,
+    "candidate_name": "Vivek Chimnani",
+    "eligible": true,
+    "email": "vivekchimnani4231@gmail.com",
+    "total_score": 53,
+    "score_breakdown": {
+      "ai_project_depth": 5,
+      "python_backend": 28,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 5
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "fastapi",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "linux",
+      "llm"
+    ],
+    "project_summary": "Built a production-style AI research assistant using React, FastAPI, LangGraph, and LLM APIs.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_44",
+    "source_file": "resumes\\candidate_44.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "backend",
+        "postgresql",
+        "mongodb",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "ci/cd",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "scalable",
+        "optimized",
+        "concurrency",
+        "monitoring",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 17,
+    "candidate_name": "P.V. Jayavardhana Sai",
+    "eligible": true,
+    "email": "pvjayavardhan6@gmail.com",
+    "total_score": 53,
+    "score_breakdown": {
+      "ai_project_depth": 23,
+      "python_backend": 16,
+      "cloud_fullstack": 12,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "flask",
+      "react",
+      "docker",
+      "aws",
+      "git",
+      "scikit-learn",
+      "tensorflow",
+      "pytorch",
+      "rag",
+      "llm",
+      "agents"
+    ],
+    "project_summary": "Workshop AI Assistant – RAG (LLM System): Designed and deployed a Retrieval-Augmented Generation (RAG) system over private vehicle service data using Ollama and Python.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "Limited evidence for python/backend experience",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_19",
+    "source_file": "resumes\\candidate_19.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag"
+      ],
+      "python_backend": [
+        "Python",
+        "flask",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "deployed",
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "optimization",
+        "logging"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 18,
+    "candidate_name": "Thejeshwaar Paasila",
+    "eligible": true,
+    "email": "thejeshwaarp@gmail.com",
+    "total_score": 52,
+    "score_breakdown": {
+      "ai_project_depth": 5,
+      "python_backend": 28,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 4
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "sql",
+      "flask",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "docker",
+      "git",
+      "linux",
+      "openai",
+      "rag",
+      "llm"
+    ],
+    "project_summary": "geospatial database layers, serverless compute functions, and row-level access control.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: genai"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_26",
+    "source_file": "resumes\\candidate_26.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "genai"
+      ],
+      "python_backend": [
+        "Python",
+        "flask",
+        "backend",
+        "postgresql",
+        "mongodb",
+        "sqlalchemy"
+      ],
+      "cloud_deployment_fullstack": [
+        "google cloud",
+        "vercel",
+        "docker",
+        "ci/cd",
+        "deployment",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing",
+        "scalable",
+        "optimization",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 19,
+    "candidate_name": "Yash Maini",
+    "eligible": true,
+    "email": "mainiyash2@gmail.com",
+    "total_score": 52,
+    "score_breakdown": {
+      "ai_project_depth": 5,
+      "python_backend": 30,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "sql",
+      "fastapi",
+      "flask",
+      "postgresql",
+      "mongodb",
+      "docker",
+      "aws",
+      "gcp",
+      "rest api",
+      "microservices",
+      "pandas",
+      "numpy",
+      "scikit-learn",
+      "tensorflow",
+      "pytorch",
+      "langchain",
+      "openai",
+      "faiss",
+      "pinecone",
+      "rag",
+      "llm",
+      "agents",
+      "embeddings"
+    ],
+    "project_summary": "FastAPI inference endpoint at sub-15ms latency with MLflow tracking and model registry.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: genai"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_13",
+    "source_file": "resumes\\candidate_13.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "genai"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "rest api",
+        "backend",
+        "microservices",
+        "postgresql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "gcp",
+        "docker",
+        "ci/cd",
+        "deployed",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "optimization",
+        "retry"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 20,
+    "candidate_name": "SHUBHANSHU NAVADIYA",
+    "eligible": true,
+    "email": "subhnavadiya@gmail.com",
+    "total_score": 51,
+    "score_breakdown": {
+      "ai_project_depth": 23,
+      "python_backend": 20,
+      "cloud_fullstack": 6,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "sql",
+      "fastapi",
+      "git",
+      "pandas",
+      "numpy",
+      "scikit-learn",
+      "pytorch",
+      "langchain",
+      "llamaindex",
+      "openai",
+      "hugging face",
+      "rag",
+      "llm",
+      "agents",
+      "agentic",
+      "embeddings"
+    ],
+    "project_summary": "Developed 20+ AI POCs spanning LLM agents, document intelligence, OCR/VLMs, semantic Built an end-to-end RAG pipeline for insurance policy documents using LlamaParse, Qdrant/Weaviate, Developed 20+ AI POCs across OCR, Vision-Language Models, document understanding, structured.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, ai agent"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_12",
+    "source_file": "resumes\\candidate_12.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "rag",
+        "ai agent"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "backend",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "github actions",
+        "deployed"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing",
+        "optimization"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 21,
+    "candidate_name": "Aditi Kala",
+    "eligible": true,
+    "email": "aditi25.kala@gmail.com",
+    "total_score": 48,
+    "score_breakdown": {
+      "ai_project_depth": 13,
+      "python_backend": 28,
+      "cloud_fullstack": 6,
+      "github": 0,
+      "engineering_depth": 1
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "c++",
+      "sql",
+      "fastapi",
+      "flask",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "docker",
+      "git",
+      "tensorflow",
+      "pytorch",
+      "llm"
+    ],
+    "project_summary": "– Built an automated agent QA framework with scripted and LLM-to-LLM test modes and an LLM scoring engine, – Developed a machine learning shoplifting detection system using action recognition, improving detection accuracy by – Implemented a real-time push notification system...",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_37",
+    "source_file": "resumes\\candidate_37.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "flask",
+        "backend",
+        "postgresql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "google cloud",
+        "docker"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 22,
+    "candidate_name": "KRISHAN KANT",
+    "eligible": true,
+    "email": "krishankantptu@gmail.com",
+    "total_score": 48,
+    "score_breakdown": {
+      "ai_project_depth": 10,
+      "python_backend": 30,
+      "cloud_fullstack": 3,
+      "github": 0,
+      "engineering_depth": 5
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "typescript",
+      "c++",
+      "sql",
+      "spring boot",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "microservices",
+      "git",
+      "langchain",
+      "openai",
+      "rag",
+      "llm"
+    ],
+    "project_summary": "Designed endpoints for job creation, LLM-ranked candidate retrieval, and reporting with strict HTTP handling; containerized MongoDB via Docker Compose with dynamic environment/API-key configuration.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience",
+      "Engineering quality signals"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm, openai api"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_09",
+    "source_file": "resumes\\candidate_09.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm",
+        "openai api"
+      ],
+      "python_backend": [
+        "Python",
+        "spring boot",
+        "backend",
+        "microservices",
+        "postgresql",
+        "mongodb",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "docker"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "system design",
+        "scalable",
+        "optimized",
+        "caching",
+        "concurrency",
+        "logging",
+        "architecture"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 23,
+    "candidate_name": "RAJ THUMAR",
+    "eligible": true,
+    "email": "thumarraj999@gmail.com",
+    "total_score": 47,
+    "score_breakdown": {
+      "ai_project_depth": 13,
+      "python_backend": 28,
+      "cloud_fullstack": 6,
+      "github": 0,
+      "engineering_depth": 0
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "c++",
+      "flask",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "openai",
+      "rag"
+    ],
+    "project_summary": "BuiltAI-poweredworkflowautomationbyintegratingOpenAI,Gemini,RAG,andMCPintobackendservicesforintelligent BuiltRedisforcachingandbackgroundjobs,andimplementedSMTP-basedemailservicesforautomatednotifications.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: rag"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_40",
+    "source_file": "resumes\\candidate_40.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "rag"
+      ],
+      "python_backend": [
+        "Python",
+        "flask",
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "redis"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker"
+      ],
+      "github": [],
+      "engineering_depth": []
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 24,
+    "candidate_name": "Vivek Shekhawat",
+    "eligible": true,
+    "email": "vivekshekhawatofficial1592002@gmail.com",
+    "total_score": 47,
+    "score_breakdown": {
+      "ai_project_depth": 18,
+      "python_backend": 24,
+      "cloud_fullstack": 3,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "django",
+      "node.js",
+      "react",
+      "postgresql",
+      "git",
+      "langchain",
+      "rag",
+      "llm",
+      "embeddings"
+    ],
+    "project_summary": "Built a production-oriented RAG platform in Go using Gin, GORM, PostgreSQL, pgvector and Ollama.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: rag, langchain"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_39",
+    "source_file": "resumes\\candidate_39.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "rag",
+        "langchain"
+      ],
+      "python_backend": [
+        "Python",
+        "django",
+        "backend",
+        "postgresql",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "concurrency",
+        "logging"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 25,
+    "candidate_name": "VIKRAM MADHYASTA",
+    "eligible": true,
+    "email": "vikrammadyasta@gmail.com",
+    "total_score": 45,
+    "score_breakdown": {
+      "ai_project_depth": 13,
+      "python_backend": 16,
+      "cloud_fullstack": 15,
+      "github": 0,
+      "engineering_depth": 1
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "sql",
+      "docker",
+      "kubernetes",
+      "aws",
+      "rest api",
+      "git",
+      "linux",
+      "scikit-learn",
+      "openai"
+    ],
+    "project_summary": "Jenkins, using scoped Jenkins credentials with zero hard-coded secrets.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "Limited evidence for python/backend experience",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: openai api"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_29",
+    "source_file": "resumes\\candidate_29.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "openai api"
+      ],
+      "python_backend": [
+        "Python",
+        "rest api",
+        "backend"
+      ],
+      "cloud_deployment_fullstack": [
+        "aws",
+        "docker",
+        "kubernetes",
+        "ci/cd",
+        "github actions",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "monitoring"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 26,
+    "candidate_name": "DORNIPADU KARTHIKA CHAITRIKA",
+    "eligible": true,
+    "email": "dornipadukarthi@gmail.com",
+    "total_score": 44,
+    "score_breakdown": {
+      "ai_project_depth": 28,
+      "python_backend": 16,
+      "cloud_fullstack": 0,
+      "github": 0,
+      "engineering_depth": 0
+    },
+    "matched_skills": [
+      "python",
+      "javascript",
+      "flask",
+      "django",
+      "rag",
+      "agentic",
+      "embeddings"
+    ],
+    "project_summary": "Implemented semantic search using vector embeddings and cosine similarity.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Strong AI/agentic project evidence"
+    ],
+    "concerns": [
+      "Limited evidence for python/backend experience",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: genai, rag, embeddings, semantic search"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_24",
+    "source_file": "resumes\\candidate_24.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "genai",
+        "rag",
+        "embeddings",
+        "semantic search"
+      ],
+      "python_backend": [
+        "Python",
+        "flask",
+        "django"
+      ],
+      "cloud_deployment_fullstack": [],
+      "github": [],
+      "engineering_depth": []
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 27,
+    "candidate_name": "Atul Kumar",
+    "eligible": true,
+    "email": "atulofficial02@gmail.com",
+    "total_score": 41,
+    "score_breakdown": {
+      "ai_project_depth": 5,
+      "python_backend": 24,
+      "cloud_fullstack": 12,
+      "github": 0,
+      "engineering_depth": 0
+    },
+    "matched_skills": [
+      "python",
+      "c++",
+      "sql",
+      "flask",
+      "gcp",
+      "rest api",
+      "git",
+      "pandas",
+      "numpy",
+      "scikit-learn"
+    ],
+    "project_summary": "BART transformer model. Successfully managed version control and deployed the application to Render.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: transformer"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_25",
+    "source_file": "resumes\\candidate_25.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "transformer"
+      ],
+      "python_backend": [
+        "Python",
+        "flask",
+        "rest api",
+        "restful",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "gcp",
+        "google cloud",
+        "deployed",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": []
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 28,
+    "candidate_name": "MANOJ KUMAR K R",
+    "eligible": true,
+    "email": "manojkumar.k.r0904@gmail.com",
+    "total_score": 41,
+    "score_breakdown": {
+      "ai_project_depth": 13,
+      "python_backend": 20,
+      "cloud_fullstack": 6,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "sql",
+      "flask",
+      "react",
+      "git",
+      "pandas",
+      "numpy",
+      "scikit-learn",
+      "tensorflow",
+      "pytorch",
+      "hugging face"
+    ],
+    "project_summary": "Deployed the final model on Hugging Face, enabling real-time image classification through a web Designed and developed an AI-enabled cognitive training platform using Flask, React, and MySQL.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: hugging face"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_21",
+    "source_file": "resumes\\candidate_21.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "hugging face"
+      ],
+      "python_backend": [
+        "Python",
+        "flask",
+        "backend",
+        "mysql"
+      ],
+      "cloud_deployment_fullstack": [
+        "deployed",
+        "deployment"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "testing",
+        "scalable"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 29,
+    "candidate_name": "ANNISHA S",
+    "eligible": true,
+    "email": "annishasaravanan83@gmail.com",
+    "total_score": 40,
+    "score_breakdown": {
+      "ai_project_depth": 5,
+      "python_backend": 24,
+      "cloud_fullstack": 9,
+      "github": 0,
+      "engineering_depth": 2
+    },
+    "matched_skills": [
+      "python",
+      "sql",
+      "fastapi",
+      "react",
+      "postgresql",
+      "mongodb",
+      "azure",
+      "git",
+      "openai",
+      "llm"
+    ],
+    "project_summary": "features, fix bugs, and improve the overall user experience.",
+    "github_username": "annishasaravan",
+    "github_url": "https://github.com/annishasaravan",
+    "github_summary": "Profile identified (annishasaravan), but public data was unavailable: GitHub user not found.",
+    "strengths": [
+      "Python/backend experience",
+      "Cloud/deployment/full-stack experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "GitHub profile found, but public activity could not be verified"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_23",
+    "source_file": "resumes\\candidate_23.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "backend",
+        "postgresql",
+        "mongodb"
+      ],
+      "cloud_deployment_fullstack": [
+        "azure",
+        "full-stack",
+        "full stack"
+      ],
+      "github": [
+        "https://github.com/annishasaravan"
+      ],
+      "engineering_depth": [
+        "scalable",
+        "optimized"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "GitHub user not found",
+      "username": "annishasaravan"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": 30,
+    "candidate_name": "M SAI KUSHITH",
+    "eligible": true,
+    "email": "msaikushith718@gmail.com",
+    "total_score": 33,
+    "score_breakdown": {
+      "ai_project_depth": 5,
+      "python_backend": 24,
+      "cloud_fullstack": 3,
+      "github": 0,
+      "engineering_depth": 1
+    },
+    "matched_skills": [
+      "python",
+      "java",
+      "typescript",
+      "sql",
+      "fastapi",
+      "django",
+      "react",
+      "postgresql",
+      "git",
+      "linux",
+      "scikit-learn",
+      "langchain",
+      "rag",
+      "llm"
+    ],
+    "project_summary": "Built a OCR document verification pipeline (Tesseract + Nvidia NIM LLM) with Kannada-language support, validated Developed a geospatial intelligence module using Leaflet.js and Google Earth Engine, displaying 10-year satellite history.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [
+      "Python/backend experience"
+    ],
+    "concerns": [
+      "Limited evidence for strong ai/agentic project evidence",
+      "No GitHub profile link found in the resume"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume",
+      "AI/LLM/agentic terminology found in project-related text: llm"
+    ],
+    "rejection_reason": null,
+    "candidate_id": "candidate_06",
+    "source_file": "resumes\\candidate_06.pdf",
+    "score_evidence": {
+      "ai_agentic_rag_depth": [
+        "llm"
+      ],
+      "python_backend": [
+        "Python",
+        "fastapi",
+        "django",
+        "backend",
+        "postgresql"
+      ],
+      "cloud_deployment_fullstack": [
+        "full-stack"
+      ],
+      "github": [],
+      "engineering_depth": [
+        "optimization"
+      ]
+    },
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "AABHAR GUPTA",
+    "eligible": false,
+    "email": "aabhargupta2310@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "javascript",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "git"
+    ],
+    "project_summary": "SaaS recruitment platform streamlining end-to-end hiring workflows for staffing agencies and internal HR teams.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found",
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [],
+    "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_46",
+    "source_file": "resumes\\candidate_46.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "ANJALI PATIL",
+    "eligible": false,
+    "email": "anjalipatil1220@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "java",
+      "javascript",
+      "sql",
+      "spring boot",
+      "postgresql",
+      "redis",
+      "docker",
+      "microservices",
+      "git"
+    ],
+    "project_summary": "Built an online learning platform using Java, Spring Boot, MySQL, Razorpay, HTML, CSS, and JavaScript.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found",
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [],
+    "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_42",
+    "source_file": "resumes\\candidate_42.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Agam Jain",
+    "eligible": false,
+    "email": "jainagam4@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "typescript",
+      "c++",
+      "sql",
+      "fastapi",
+      "spring boot",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "git"
+    ],
+    "project_summary": "PDFs/DOCX/PPTX into interactive study decks with semantic chunking and automated card generation.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_03",
+    "source_file": "resumes\\candidate_03.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Gayathri Palraj",
+    "eligible": false,
+    "email": "gayathri.2842004@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "typescript",
+      "sql",
+      "node.js",
+      "react",
+      "mongodb",
+      "rest api",
+      "git"
+    ],
+    "project_summary": "Designed and developed a full-stack, multi-tier car booking platform with a customer-facing booking flow and an administrative dashboard.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_27",
+    "source_file": "resumes\\candidate_27.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "HARSHA A",
+    "eligible": false,
+    "email": "harshaarun2608@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "sql",
+      "docker",
+      "azure"
+    ],
+    "project_summary": "MaMcaocttopiorldonit nDligbe t.toe tchteio nde |s Jigunn eb r2ie0fs2 4a n-d S celipetnetm spbeecr if2ic0a2t4ions provided in the project proposal.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_15",
+    "source_file": "resumes\\candidate_15.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Hari Shanker Sharma",
+    "eligible": false,
+    "email": "harishankersharma648@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "typescript",
+      "sql",
+      "fastapi",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "kubernetes",
+      "git",
+      "pytest",
+      "pandas",
+      "numpy",
+      "langchain",
+      "agents",
+      "embeddings"
+    ],
+    "project_summary": "Actions)—deployedonDigitalOceanwithDocker+Nginxreverseproxy.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_41",
+    "source_file": "resumes\\candidate_41.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Harshit Kumar Mishra",
+    "eligible": false,
+    "email": "jmd.harshitmishra@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "javascript",
+      "typescript",
+      "c++",
+      "sql",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "gcp",
+      "git"
+    ],
+    "project_summary": "Builtascalablebotsystemwithdynamiccredentialsandcronschedulingforreal-timeleaderboardupdates.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found",
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [],
+    "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_18",
+    "source_file": "resumes\\candidate_18.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "JAYA NANDI",
+    "eligible": false,
+    "email": "jaya85300@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "sql",
+      "react",
+      "aws",
+      "git",
+      "pandas",
+      "numpy"
+    ],
+    "project_summary": "representingIndiaandKIITonaninternationalacademicstage.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_14",
+    "source_file": "resumes\\candidate_14.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Jyandeep Baishya",
+    "eligible": false,
+    "email": "craftzyan@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "typescript",
+      "fastapi",
+      "node.js",
+      "react",
+      "redis",
+      "langchain",
+      "chromadb",
+      "rag"
+    ],
+    "project_summary": "<300ms);capability-basedmodelroutingright-sizedeachcalltoreduceLLMcost~30%.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_07",
+    "source_file": "resumes\\candidate_07.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Kartikay Sinha",
+    "eligible": false,
+    "email": "kartikay.sinha17@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "javascript",
+      "typescript",
+      "c++",
+      "sql",
+      "node.js",
+      "react",
+      "mongodb",
+      "docker",
+      "git"
+    ],
+    "project_summary": "Optimized asset loading via CDN integration, resulting in a 30% improvement in initial page load times and user engagement.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found",
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [],
+    "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_01",
+    "source_file": "resumes\\candidate_01.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "MD AZIZUL ISLAM",
+    "eligible": false,
+    "email": "mdazizul8741@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "javascript",
+      "typescript",
+      "c++",
+      "sql",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "aws",
+      "rest api",
+      "microservices",
+      "git",
+      "openai",
+      "rag",
+      "llm",
+      "embeddings"
+    ],
+    "project_summary": "indexing, enabling nearby help requests with real-time location discovery.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found"
+    ],
+    "eligibility_evidence": [
+      "AI/LLM/agentic terminology found in project-related text: llm, rag, embeddings, semantic search"
+    ],
+    "rejection_reason": "No explicit Python evidence found",
+    "candidate_id": "candidate_11",
+    "source_file": "resumes\\candidate_11.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Mukul Pal",
+    "eligible": false,
+    "email": "mukulpal0333@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "javascript",
+      "typescript",
+      "node.js",
+      "react",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "git",
+      "openai"
+    ],
+    "project_summary": "forlow-latencyI/O,thensyncedtoS3-compatibleblobstorageonidle.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found"
+    ],
+    "eligibility_evidence": [
+      "AI/LLM/agentic terminology found in project-related text: openai api"
+    ],
+    "rejection_reason": "No explicit Python evidence found",
+    "candidate_id": "candidate_32",
+    "source_file": "resumes\\candidate_32.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "NIDHI KM",
+    "eligible": false,
+    "email": "nidhikmgowda24@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "sql",
+      "spring boot",
+      "react",
+      "aws",
+      "rest api",
+      "git",
+      "tensorflow"
+    ],
+    "project_summary": "Designed responsive React.js UI with React Hooks, Axios API integration, component-based architecture, and form validation.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_48",
+    "source_file": "resumes\\candidate_48.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "NISARGA H. S.",
+    "eligible": false,
+    "email": "nisarga20suresh@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "node.js",
+      "microservices",
+      "git",
+      "linux"
+    ],
+    "project_summary": "Bruno, Kibana, Splunk validation and complaint tracking. Designed a relational data model using CDS Developed a Student Database Management System using single linked list data.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_34",
+    "source_file": "resumes\\candidate_34.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "PRIYA R",
+    "eligible": false,
+    "email": "priyaraguraman29@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "javascript",
+      "sql",
+      "react",
+      "git"
+    ],
+    "project_summary": "assistant leverages pyttsx3 and speech recognition to enhance accessibility for visually impaired users.",
+    "github_username": "Priya291102",
+    "github_url": "https://github.com/Priya291102",
+    "github_summary": "6 public repositories; 0 public events in the last 90 days; 0 repositories updated in the last 180 days; 2 repositories with AI/Python-related signals; languages include Jupyter Notebook, Python, TypeScript.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_20",
+    "source_file": "resumes\\candidate_20.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": true,
+      "username": "Priya291102",
+      "profile_url": "https://github.com/Priya291102",
+      "public_repos": 6,
+      "followers": 0,
+      "account_created": "2025-04-21T05:37:00Z",
+      "languages_in_recent_repos": [
+        "Jupyter Notebook",
+        "Python",
+        "TypeScript"
+      ],
+      "recent_repositories": [
+        {
+          "name": "dream-weaver-weddings-87",
+          "url": "https://github.com/Priya291102/dream-weaver-weddings-87",
+          "language": "TypeScript",
+          "description": null,
+          "updated_at": "2026-03-03T05:00:08Z"
+        },
+        {
+          "name": "dream-wedding-planner",
+          "url": "https://github.com/Priya291102/dream-wedding-planner",
+          "language": "TypeScript",
+          "description": null,
+          "updated_at": "2026-02-26T06:39:57Z"
+        },
+        {
+          "name": "fashion-showcase-carousel",
+          "url": "https://github.com/Priya291102/fashion-showcase-carousel",
+          "language": "TypeScript",
+          "description": null,
+          "updated_at": "2026-02-25T12:04:42Z"
+        },
+        {
+          "name": "Prediction-Project",
+          "url": "https://github.com/Priya291102/Prediction-Project",
+          "language": null,
+          "description": null,
+          "updated_at": "2026-01-05T05:08:10Z"
+        },
+        {
+          "name": "Improving-Accessibility-For-The-Blind-By-Developing-a-Helpful-Virtual-Assistant-For-Daily-Life",
+          "url": "https://github.com/Priya291102/Improving-Accessibility-For-The-Blind-By-Developing-a-Helpful-Virtual-Assistant-For-Daily-Life",
+          "language": "Python",
+          "description": null,
+          "updated_at": "2025-12-29T08:02:37Z"
+        },
+        {
+          "name": "PROJECT",
+          "url": "https://github.com/Priya291102/PROJECT",
+          "language": "Jupyter Notebook",
+          "description": "This project focuses on predicting Air Quality Index (AQI) by utilizing machine learning techniques. By leveraging datasets containing PM2.5 and other air quality metrics, machine learning algorithms such as SVR, Decision Trees, and XGBoost are used to build accurate predictive models.",
+          "updated_at": "2025-04-21T07:22:16Z"
+        }
+      ],
+      "recent_public_events_90d": 0,
+      "recently_updated_repositories_180d": 0,
+      "relevant_repositories": 2,
+      "activity_score": 0,
+      "repository_score": 2,
+      "enrichment_warnings": [],
+      "score_method": "0-5 recent public events in 90 days + 0-5 recently updated/relevant repositories"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Parshuram Kumar",
+    "eligible": false,
+    "email": "parshuramkumarofficial725@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "javascript",
+      "c++",
+      "flask",
+      "django",
+      "node.js",
+      "react",
+      "mongodb",
+      "redis",
+      "docker",
+      "aws",
+      "azure",
+      "git",
+      "linux"
+    ],
+    "project_summary": "filtering, cart management, and secure checkout, which improved user interaction by 30% and increased conversion efficiency.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_45",
+    "source_file": "resumes\\candidate_45.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "SHIVAM RAJ",
+    "eligible": false,
+    "email": "shivam2kraj@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "javascript",
+      "typescript",
+      "node.js",
+      "react",
+      "docker",
+      "azure",
+      "git"
+    ],
+    "project_summary": "Implemented dynamic testimonial and feedback systems, increasing customer engagement metrics.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No explicit Python evidence found",
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [],
+    "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_02",
+    "source_file": "resumes\\candidate_02.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Shreya Chauhan",
+    "eligible": false,
+    "email": "chauhanshreya140@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "spring boot",
+      "node.js",
+      "react",
+      "mongodb",
+      "redis",
+      "rest api",
+      "microservices",
+      "git"
+    ],
+    "project_summary": "Solved 300+ problems across LeetCode and CodeChef spanning arrays, trees, graphs, DP, and greedy algorithms.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_31",
+    "source_file": "resumes\\candidate_31.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "VISHWAS BADIGER",
+    "eligible": false,
+    "email": "Vishwasbadiger240@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "javascript",
+      "c++",
+      "flask",
+      "spring boot",
+      "node.js",
+      "react",
+      "mongodb",
+      "git",
+      "scikit-learn"
+    ],
+    "project_summary": "Built a Flask-based web interface allowing users to input soil parameters and instantly view predicted soil type and recommendations.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_05",
+    "source_file": "resumes\\candidate_05.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  },
+  {
+    "rank": null,
+    "candidate_name": "Yuvaraj R",
+    "eligible": false,
+    "email": "yuvi.2003kce@gmail.com",
+    "total_score": null,
+    "score_breakdown": null,
+    "matched_skills": [
+      "python",
+      "java",
+      "sql",
+      "django",
+      "postgresql",
+      "docker",
+      "rest api",
+      "pandas",
+      "numpy",
+      "scikit-learn"
+    ],
+    "project_summary": "Built an end-to-end image prediction pipeline using Python and Deep Learning frameworks.",
+    "github_username": null,
+    "github_url": null,
+    "github_summary": "No GitHub profile URL found in resume; activity could not be assessed.",
+    "strengths": [],
+    "concerns": [
+      "No clear AI/LLM/agentic project evidence found"
+    ],
+    "eligibility_evidence": [
+      "Python mentioned in resume"
+    ],
+    "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+    "candidate_id": "candidate_04",
+    "source_file": "resumes\\candidate_04.pdf",
+    "score_evidence": {},
+    "penalties": [],
+    "github_details": {
+      "available": false,
+      "reason": "No GitHub profile URL found in resume"
+    },
+    "processing_error": null
+  }
+]

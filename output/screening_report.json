@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "system": "Kasparro Resume Screening Baseline",
+    "scoring_version": "1.3",
+    "scoring_note": "Deterministic, explainable keyword-based baseline with best-effort public GitHub enrichment. No paid LLM/API is required; manually review evidence and scores.",
+    "input_directory": "resumes",
+    "files_processed": 50
+  },
+  "batch_summary": {
+    "total_processed": 50,
+    "eligible_count": 30,
+    "rejected_count": 20,
+    "processing_error_count": 0,
+    "github_profiles_found": 5,
+    "github_profiles_enriched": 4
+  },
+  "rejected_candidates": [
+    {
+      "candidate_id": "candidate_46",
+      "candidate_name": "AABHAR GUPTA",
+      "email": "aabhargupta2310@gmail.com",
+      "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": []
+    },
+    {
+      "candidate_id": "candidate_42",
+      "candidate_name": "ANJALI PATIL",
+      "email": "anjalipatil1220@gmail.com",
+      "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": []
+    },
+    {
+      "candidate_id": "candidate_03",
+      "candidate_name": "Agam Jain",
+      "email": "jainagam4@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_27",
+      "candidate_name": "Gayathri Palraj",
+      "email": "gayathri.2842004@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_15",
+      "candidate_name": "HARSHA A",
+      "email": "harshaarun2608@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_41",
+      "candidate_name": "Hari Shanker Sharma",
+      "email": "harishankersharma648@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_18",
+      "candidate_name": "Harshit Kumar Mishra",
+      "email": "jmd.harshitmishra@gmail.com",
+      "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": []
+    },
+    {
+      "candidate_id": "candidate_14",
+      "candidate_name": "JAYA NANDI",
+      "email": "jaya85300@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_07",
+      "candidate_name": "Jyandeep Baishya",
+      "email": "craftzyan@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_01",
+      "candidate_name": "Kartikay Sinha",
+      "email": "kartikay.sinha17@gmail.com",
+      "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": []
+    },
+    {
+      "candidate_id": "candidate_11",
+      "candidate_name": "MD AZIZUL ISLAM",
+      "email": "mdazizul8741@gmail.com",
+      "rejection_reason": "No explicit Python evidence found",
+      "eligibility_evidence": [
+        "AI/LLM/agentic terminology found in project-related text: llm, rag, embeddings, semantic search"
+      ]
+    },
+    {
+      "candidate_id": "candidate_32",
+      "candidate_name": "Mukul Pal",
+      "email": "mukulpal0333@gmail.com",
+      "rejection_reason": "No explicit Python evidence found",
+      "eligibility_evidence": [
+        "AI/LLM/agentic terminology found in project-related text: openai api"
+      ]
+    },
+    {
+      "candidate_id": "candidate_48",
+      "candidate_name": "NIDHI KM",
+      "email": "nidhikmgowda24@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_34",
+      "candidate_name": "NISARGA H. S.",
+      "email": "nisarga20suresh@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_20",
+      "candidate_name": "PRIYA R",
+      "email": "priyaraguraman29@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_45",
+      "candidate_name": "Parshuram Kumar",
+      "email": "parshuramkumarofficial725@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_02",
+      "candidate_name": "SHIVAM RAJ",
+      "email": "shivam2kraj@gmail.com",
+      "rejection_reason": "No explicit Python evidence found; No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": []
+    },
+    {
+      "candidate_id": "candidate_31",
+      "candidate_name": "Shreya Chauhan",
+      "email": "chauhanshreya140@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_05",
+      "candidate_name": "VISHWAS BADIGER",
+      "email": "Vishwasbadiger240@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    },
+    {
+      "candidate_id": "candidate_04",
+      "candidate_name": "Yuvaraj R",
+      "email": "yuvi.2003kce@gmail.com",
+      "rejection_reason": "No clear AI/LLM/agentic project evidence found",
+      "eligibility_evidence": [
+        "Python mentioned in resume"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+pdfplumber
+pytest
+requests
+python-docx
+python-dotenv
