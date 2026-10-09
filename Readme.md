@@ -23,8 +23,6 @@ kasparro-resume-screening/
 └── output/                  # Generated results (Not uploaded due to sensitive data)
 ```
 
-The directory structure above is illustrative. Refer to the actual repository for the complete list of files. Resume inputs and generated candidate-level outputs should remain local and must not be committed to a public repository.
-
 ## Setup
 
 Create and activate a virtual environment.
@@ -55,7 +53,7 @@ Place the resume files in the `resumes/` directory. PDF, DOCX, and TXT files are
 
 ### Optional GitHub Token
 
-GitHub enrichment is optional. To configure it, copy `.env.example` to `.env` and add your token:
+GitHub enrichment is optional. To configure it, Create `.env` and add your token:
 
 ```dotenv
 GITHUB_TOKEN=your_github_token_here
