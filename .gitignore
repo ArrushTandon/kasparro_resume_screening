@@ -6,3 +6,5 @@ __pycache__/
 .env.*
 !.env.example
 resumes/
+output/results.json
+output/screening_report.json

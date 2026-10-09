@@ -1,38 +1,83 @@
 # Resume Screening and Ranking Baseline
 
-A Python CLI that parses resumes, applies explicit eligibility filters, scores eligible candidates, optionally enriches GitHub profiles, and writes a JSON report. It is designed as a transparent baseline for the Kasparro SDE Intern assignment.
+A Python CLI that parses resumes, applies explicit eligibility filters, scores eligible candidates, optionally enriches GitHub profiles, and generates structured JSON results. It is designed as a transparent, reproducible baseline for the Kasparro SDE Intern assignment.
 
 ## Requirements
 
-- Python 3.12.5
-- Internet access only for optional GitHub enrichment
+* Python 3.12.5
+* Internet access only for optional GitHub enrichment
+
+## Project Structure
+
+```text
+kasparro-resume-screening/
+├── main.py
+├── requirements.txt
+├── README.md
+├── src/
+│   ├── screener.py
+│   └── __init__.py
+├── tests/
+│   └── test_screener.py
+├── resumes/                 # Local resume inputs (Not Uploaded due to sensitive data)
+└── output/                  # Generated results (Not uploaded due to sensitive data)
+```
+
+The directory structure above is illustrative. Refer to the actual repository for the complete list of files. Resume inputs and generated candidate-level outputs should remain local and must not be committed to a public repository.
 
 ## Setup
 
+Create and activate a virtual environment.
+
 ```bash
 python -m venv .venv
-# Windows PowerShell: .\.venv\Scripts\Activate.ps1
-# Windows CMD: .venv\Scripts\activate.bat
+```
+
+**Windows PowerShell:**
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+**Windows Command Prompt:**
+
+```bat
+.venv\Scripts\activate.bat
+```
+
+Install the dependencies:
+
+```bash
 python -m pip install -r requirements.txt
 ```
 
-Put resume PDFs in `resumes/`. DOCX and TXT are also supported. Scanned/image-only PDFs are reported as processing errors because OCR is not included.
+Place the resume files in the `resumes/` directory. PDF, DOCX, and TXT files are supported. Scanned or image-only PDFs may be reported as processing errors because OCR is not included.
 
-Optional GitHub token: copy `.env.example` to `.env` and add `GITHUB_TOKEN=...`. Never commit `.env` or expose your token. The run continues if GitHub API requests fail.
+### Optional GitHub Token
 
-## Run
+GitHub enrichment is optional. To configure it, copy `.env.example` to `.env` and add your token:
+
+```dotenv
+GITHUB_TOKEN=your_github_token_here
+```
+
+Never commit `.env` or expose your token. GitHub enrichment is best-effort, and API failures should not stop batch processing.
+
+## Running the Application
+
+Process resumes and write the candidate results to JSON:
 
 ```bash
 python main.py --input resumes --output output/results.json
 ```
 
-Offline run without GitHub requests:
+To run without making GitHub API requests:
 
 ```bash
 python main.py --input resumes --output output/results.json --no-github
 ```
 
-Run tests:
+## Running Tests
 
 Run the test suite using the active Python environment:
 
@@ -40,54 +85,132 @@ Run the test suite using the active Python environment:
 python -m pytest -q
 ```
 
-## Eligibility
+## Eligibility Criteria
 
-A resume is eligible only when it explicitly mentions Python and has AI/LLM/agentic terminology in project-related text. Rejected candidates include reasons. This is a heuristic approximation and can miss equivalent terminology or mistake keyword mentions for genuine experience; manually inspect evidence.
+A resume is considered eligible only when both of the following conditions are met:
+
+1. The resume explicitly mentions Python.
+2. Project-related text contains AI, LLM, or agentic terminology.
+
+Candidates who fail either condition are rejected, with reasons recorded in the output.
+
+These rules are heuristic approximations. They may miss equivalent terminology or mistake keyword mentions for meaningful experience. Review the recorded evidence before relying on a screening decision.
+
+## Scoring Methodology
+
+Eligible candidates are scored using a weighted rubric with a maximum of 100 points.
+
+| Dimension                   | Maximum Points | Baseline Approach                                                                                                     |
+| --------------------------- | -------------: | --------------------------------------------------------------------------------------------------------------------- |
+| AI/agentic/RAG depth        |             40 | AI-related terms, with additional signals for RAG, vector retrieval, agents, tool calling, evaluation, and guardrails |
+| Python/backend              |             30 | Python evidence, backend frameworks, APIs, and databases                                                              |
+| Cloud/deployment/full-stack |             15 | Cloud platforms, containers, deployment, CI/CD, and full-stack signals                                                |
+| GitHub                      |             10 | Profile information and available public repository metadata                                                          |
+| Engineering depth           |              5 | Testing, architecture, reliability, optimization, and observability                                                   |
+| **Total**                   |        **100** | **Weighted score for eligible candidates**                                                                            |
+
+Tutorial or shallow-project phrases incur a capped penalty. The scoring weights, keyword lists, and related rules are defined in `src/screener.py`.
+
+The public score breakdown reflects any shallow-project penalty deduction, so its category values sum to the final total score. The original penalty explanation is retained in the `penalties` field.
+
+The rubric is deterministic and explainable, but it is not a validated hiring model. Scores should be interpreted alongside the evidence recorded for each candidate.
 
 ## GitHub Enrichment
 
-GitHub enrichment is optional and best-effort. When enabled, the system attempts to retrieve public profile or repository metadata for candidates with a detected GitHub username. API failures, unavailable profiles, and rate limits must not stop batch processing or affect eligibility. GitHub points depend on the evidence successfully retrieved; a missing profile or failed enrichment receives zero GitHub points.
+GitHub enrichment is optional and best-effort. When enabled, the program attempts to retrieve public profile or repository information for candidates with a detected GitHub username.
 
-## Scoring (100 points)
+If a profile cannot be identified, the API is unavailable, or rate limits intervene, processing continues. The `github_summary` field should explain when information is unavailable, and missing information must not be invented.
 
-| Dimension | Maximum | Baseline approach |
-|---|---:|---|
-| AI/agentic/RAG depth | 40 | AI-related terms; additional signals for RAG/vector retrieval, agents/tool calling, evaluation/guardrails |
-| Python/backend | 30 | Python evidence plus backend frameworks, APIs, and databases |
-| Cloud/deployment/full-stack | 15 | Cloud, containers, deployment, CI/CD, full-stack signals |
-| GitHub | 10 | Profile link and available public profile/repository metadata |
-| Engineering depth | 5 | Testing, architecture, reliability, optimization, and observability signals |
+GitHub points depend on the evidence successfully retrieved. A missing profile or failed enrichment receives zero GitHub points and does not affect eligibility.
 
-Tutorial/shallow-project phrases incur a capped penalty. The weights and keyword lists are explicit in `src/screener.py` and should be calibrated against the assignment's intended evaluation. Scores are heuristic, not proof of ability.
+## Output Format
 
-## Output
+The main output, `output/results.json`, is a top-level JSON array of candidate objects following the assignment's output format.
 
-`output/results.json` is a top-level JSON array following the assignment's candidate-object format. It contains eligible candidates first, ranked by score, followed by rejected candidates so each record can include `eligible` and `rejection_reason`. Eligible records have an integer `rank` and score fields; rejected records have `rank`, `total_score`, and `score_breakdown` set to `null` because rejected candidates are not scored or ranked. Each record includes `candidate_name`, `email`, `matched_skills`, `project_summary`, `github_username`, `github_url`, `github_summary`, `strengths`, `concerns`, and `eligibility_evidence`. Extra audit fields include `candidate_id`, `source_file`, `score_evidence`, `penalties`, `github_details`, and `processing_error`. The public `score_breakdown` reflects any shallow-project penalty deduction, so its category values sum to `total_score`; the original penalty explanation remains in `penalties`.
+The array contains eligible candidates first, ranked by score, followed by rejected candidates.
 
-A sidecar file, `output/screening_report.json`, preserves batch counts and a compact rejected-candidate list without changing the required array shape of `results.json`. GitHub enrichment is best-effort: when a public profile is found, the program queries GitHub's public REST API for profile/repository/event signals. If no profile is linked in the resume, the API is unavailable, or rate limits intervene, the run continues and `github_summary` explains the missing data; unavailable data is not invented.
+### Eligible Candidates
 
-## Evaluation Note
+Eligible candidate records include:
 
-The screening and ranking logic is a deterministic, keyword-based baseline rather than a validated hiring model. Eligibility decisions and scores can be affected by resume formatting, terminology, keyword stuffing, and extraction errors. Review the recorded evidence and score breakdown for each candidate before making any hiring decision.
+* An integer `rank`.
+* `candidate_name` and `email`.
+* `eligible` status.
+* `total_score` and `score_breakdown`.
+* `matched_skills` and `project_summary`.
+* `github_username`, `github_url`, and `github_summary`.
+* `strengths` and `concerns`.
+* `eligibility_evidence`.
+
+Additional audit fields include `candidate_id`, `source_file`, `score_evidence`, `penalties`, `github_details`, and `processing_error`.
+
+### Rejected Candidates
+
+Rejected candidates remain in the output so that eligibility decisions can be reviewed. Their records include the rejection reason and available supporting evidence.
+
+The `rank`, `total_score`, and `score_breakdown` fields are set to `null` because rejected candidates are not scored or ranked.
+
+### Batch Report
+
+A separate file, `output/screening_report.json`, contains batch-level counts and a compact list of rejected candidates. This preserves the required top-level array structure of `results.json`.
 
 ## Design Decisions
 
-- **No LLM dependency:** deterministic and cheap to run; every score can be traced to keyword evidence. The trade-off is weaker semantic understanding and possible false positives/negatives.
-- **Best-effort extraction:** PDF, DOCX, and TXT are supported. A file-level failure is recorded instead of stopping the batch.
-- **Hard filters before ranking:** only candidates passing both filters are scored/ranked.
-- **GitHub is optional:** profile/API failures do not disqualify candidates; no profile means zero GitHub points.
-- **No database or frontend:** output is a portable JSON artifact and the CLI is sufficient for batch evaluation.
-- **Privacy:** resumes are processed locally. Only a GitHub username is sent to GitHub's public API when enrichment is enabled.
+### 1. No LLM Dependency
+
+The core screening process is deterministic and inexpensive to run. Scores can be traced to explicit keyword evidence, making the system easier to debug and reproduce.
+
+The trade-off is weaker semantic understanding, which can result in false positives and false negatives.
+
+### 2. Best-Effort Resume Extraction
+
+PDF, DOCX, and TXT formats are supported. File-level processing failures are recorded rather than intentionally stopping the entire batch.
+
+OCR for scanned or image-only PDFs is not included.
+
+### 3. Hard Filters Before Ranking
+
+Eligibility checks are performed before scoring. Only candidates who pass both eligibility filters are ranked.
+
+This separates minimum requirements from comparative scoring.
+
+### 4. Optional GitHub Enrichment
+
+GitHub enrichment is not required for the pipeline to run. Profile or API failures do not disqualify candidates, and unavailable GitHub evidence receives zero points.
+
+### 5. CLI and JSON Outputs
+
+A command-line interface and portable JSON outputs are sufficient for batch evaluation. A database or frontend is not required for the current baseline.
+
+### 6. Privacy
+
+Resumes are processed locally. When GitHub enrichment is enabled, the application may send a detected GitHub username to GitHub's public API.
+
+Resume files, candidate-level results, environment files, and API tokens should be excluded from the public repository.
+
+## Testing and Validation
+
+Run the automated test suite before submission:
+
+```bash
+python -m pytest -q
+```
+
+Also run the pipeline against the supplied resume batch and inspect the generated outputs. Verify that eligible candidates have sensible score breakdowns and that rejected candidates have clear reasons.
+
+Record the actual test results and batch counts from your final run rather than relying on earlier results.
 
 ## If I Had More Time
 
-1. Add OCR for scanned PDFs and improve layout-aware extraction.
-2. Add semantic project evidence extraction and project-by-project scoring, with human-reviewed evaluation examples.
-3. Cache GitHub requests and add explicit rate-limit/backoff handling.
-4. Add calibration against labeled sample resumes and report precision/recall for eligibility filtering.
-5. Expand tests for malformed PDFs, DOCX, API timeouts, rate limits, and scoring edge cases.
-6. Add structured logs and a versioned JSON schema.
+1. **Improve resume extraction:** Add OCR for scanned PDFs and improve layout-aware parsing.
+2. **Add semantic project analysis:** Evaluate project descriptions more deeply and score evidence at the project level.
+3. **Strengthen GitHub enrichment:** Add request caching, retry logic, rate-limit handling, and explicit backoff.
+4. **Calibrate scoring:** Evaluate the rubric against a human-reviewed dataset and report precision and recall for eligibility filtering.
+5. **Expand testing:** Cover malformed PDFs, DOCX parsing, API timeouts, rate limits, missing data, and scoring edge cases.
+6. **Improve observability:** Add structured logs, a versioned JSON schema, and clearer per-resume processing diagnostics.
 
 ## Limitations
 
-This baseline uses keywords and simple heuristics, not a validated hiring model. Resume formatting, synonyms, keyword stuffing, and incomplete GitHub data can change scores. It should support, not replace, human review.
+This implementation is a deterministic, keyword-based baseline rather than a validated hiring model. Resume formatting, synonyms, keyword stuffing, incomplete extraction, and missing GitHub data can affect scores and eligibility decisions.
+
+The pipeline is intended to support and prioritize human review, not replace it. Reviewers should inspect the recorded evidence, score breakdowns, and concerns before making hiring decisions.
